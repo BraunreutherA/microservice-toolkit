@@ -1,4 +1,6 @@
-import './lib/logger.js';
+import logger from './lib/logger.js';
+
+logger.info('test');
 
 const microserviceToolkit = {
   greet() {
